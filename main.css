@@ -8,13 +8,18 @@
 
 .section-title {
     color: #2ddf5c;
-    font-family: inherit;
     text-align: center;
 }
 
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 .plan {
@@ -30,14 +35,14 @@
 .plan--highlighted {
     background: #19b84c;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .plan__annotation {
     background: white;
     color: #19b84c;
     padding: 8px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 
@@ -58,7 +63,7 @@
 }
 
 .plan__features {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -75,13 +80,13 @@
 
 #key-features .section-title {
     color: white;
-    margin: 32px
+    margin: 32px;
 }
 
 .key-feature__list {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
     margin: 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -95,18 +100,19 @@
     background: #ffcede;
     width: 128px;
     height: 128px;
-    margin: 0 auto;
     border: 2px solid #424242;
     border-radius: 50%;
+    margin: auto;
 }
 
 .key-feature__description {
-    color: white;
-    font-weight: bold;
     text-align: center;
+    font-weight: bold;
+    color: white;
     font-size: 20px;
 }
 
-/*h1 {*/
-/*    font-family: sans-serif;*/
-/*}*/
+/* h1 {
+    font-family: sans-serif;
+} */
+
